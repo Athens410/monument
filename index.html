@@ -513,16 +513,17 @@ body{
 .one {
     border: none;
     height: 2px;
+    padding: 12px;
     background: linear-gradient(to right, #00ff00, #ff00ff); 
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
-    animation: news 6s infinite;
+    animation: news 6s infinite-linear;
 }
 @keyframes news{
             0% {
                 box-shadow: 0 0 10px rgba(255, 200, 0, 0.8);
             }
             50% {
-                box-shadow: 0 0 20px rgba(17, 0, 255, 0.6);
+                box-shadow: 0 0 50px rgba(17, 0, 255, 0.6);
             }
             100% {
                 box-shadow: 0 0 10px rgba(255, 0, 115, 0.8);
